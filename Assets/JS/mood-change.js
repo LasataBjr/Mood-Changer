@@ -54,12 +54,12 @@ let current = 0;
 //Change mood function
 function changeMood(){
     current = (current + 1) % moods.length;
-    let mood = moods[current];
-
+    // let mood = moods[current];
+    let mood = moods[Math.floor(Math.random() * moods.length)];
     //Update emoji, text & background
     emoji.textContent = mood.emoji;
     moodName.textContent = mood.name;
-    moodDesc.textContent = mood.text;
+    moodDesc.textContent = mood.text ;
     body.style.backgroundColor = mood.color; //Return the background color as document.body.style.backgroundColor
 }
 
