@@ -4,8 +4,8 @@
   padding: 0;
 }
 body{
-  background-color: #f5f7fb;
-  transition: background-color 0.5s ease;
+  color: #f5f7fb;
+  transition: background 0.5s ease;
   text-shadow: 1px 1px 2px black;
 }
 .wrap{
@@ -45,7 +45,7 @@ body{
     text-align: center; 
     height: 260px;
     width: 440px;
-    background-color: #f5f7fb;
+    background-color: transparent;
 }
 /* Left side */
 #left{
